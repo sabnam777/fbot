@@ -11,7 +11,7 @@ class Config:
  #Get this value from https://my.telegram.org  
     API_HASH = os.environ.get("API_HASH", "d0119c6adf24fc7984e7052dd94cea7a")
  #Your bot token from @BotFather   
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6098827341:AAEuBYTmLCM4fFFeshiGJscb01JeMaJXxWM") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6098827341:AAGjCjQP6WTBB9LtSCIfZ_RLCmNp4ITGGv0") 
 #leave-it
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
 #If you want to add a caption to the forwarded file, enter it here
