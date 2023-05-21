@@ -1,0 +1,53 @@
+{
+  "name": "Auto-Forward-Bot-V2",
+  "description": "Telegram's Best Smart Plugin File Forward Bot",
+  "logo": "https://te.legra.ph/file/51d142cd1c5817832dd5c.jpg",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot",
+    "panippuri",
+    "dudu"
+  ],
+  "success_url": "https://t.me/bae_wafaaa",
+  "website": "https://t.me/bae_wafaaa",
+  "repository": "https://github.com/Shinigamibots5/Frwdit-V2",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "1945966"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "6b73197f50512e26f5ebd42e73c3315f"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": "5322382737:AAGWqY21L-mw_hPIbUF8sze_HrT9wEdDtGw"
+    },
+    "OWNER_ID": {
+      "description": "Enter Your Telegram id",
+      "value": "5143506371"
+    },
+    "CAPTION": {
+      "description": "If you want to add a caption to the forwarded file, enter it here",
+      "required": false
+    },
+    "FILTER_TYPE": {
+      "description": "Type Of filters (document , audio , photo , video , animation) else type empty",
+      "value": "empty"
+    },
+    "SESSION": {
+      "description": "Pyrogram string Seccion - https://replit.com/@KindKobra/Pyrogram-String-Gen?v=1",
+      "value": "BQALRelShO-7i9naPF65FN1RAx2DCoeMzmxR7QbIebKOUkDGIvzDX6wrNFAWZO-zpRluvv6laft_pC8nBew4skx_Ddvx3J76tP5wUzFIgKyvl9HxtiN608kz0JGX5fK1MjBIxrhioxsxY-dAso6xmeTQBMK12eeJgZVnPnwkGwFYmFTlsUeAEPGc-t1nr_yyLkBvrg466gikBcid3uwlJMvxmCkLM19XGYv-fmnBXmDE9TH3w6CD_MTlkbwdfTtrMcF6Kdnf3vo_c2L7bkDGuN0NNhYoZRL7WIAfXXv46qPk98qoBmSXd7n9xoLQdSn0swDfsV0Ro94jX2yZp5S8f8i3AAAAAWuYknoA"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
